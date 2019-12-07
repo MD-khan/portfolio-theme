@@ -1,0 +1,14 @@
+{
+  "name": "portfolio-theme",
+  "version": "1.0.0",
+  "description": "Responsove portfolio theme build with HTML, CSS3, SASS and vanila Javascript",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/  --recursive"
+  },
+  "author": "MD KHAN",
+  "license": "MIT",
+  "dependencies": {
+    "node-sass": "^4.13.0"
+  }
+}
